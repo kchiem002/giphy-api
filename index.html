@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Extreme Giphy Search</title>
+    <title>GIPHY Search</title>
     <link type="text/css" rel="stylesheet" href="./assets/css/reset.css">
     <link type="text/css" rel="stylesheet" href="./assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister" rel="stylesheet">
@@ -13,16 +13,26 @@
 
 <body>
     <header>
-        <h1>Extreme GIPHY Search</h1>
+        <h1>Totally Random GIPHY Search</h1>
     </header>
     <form>
-        <label for="Search">Search Any Category: </label>
+        <label for="Search">Search anything: </label>
         <input type="text" id="search-input">
         <button onclick="submitInput()" id="search-button">Submit</button>
     </form>
+    <div id="message"></div>
     <hr>
-    <div id="input-history"></div>
+    <h2>Or select a category:</h2>
+    <div id="input-history">
+        <button class="history-button">Kittens</button>
+        <button class="history-button">Jon Snow</button>
+        <button class="history-button">Ron Swanson</button>
+        <button class="history-button">Jian Yang</button>
+        <button class="history-button">Not Hotdog</button>
+        <button class="history-button">Spongebob</button>
+    </div>
     <hr>
+    <div id="instructions"></div>
     <div id="giphy-container"></div>
 
     <script type="text/javascript" src="./assets/javascript/app.js"></script>
