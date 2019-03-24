@@ -1,0 +1,47 @@
+html {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-size: 50pt;
+    margin: 25px;
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+
+form {
+    margin: 25px;
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+
+#search-button {
+    background-color: teal;
+    color: white;
+}
+
+.history-button {
+    background-color: teal;
+    color: white;
+    font-size: 20pt;
+    font-family: 'Love Ya Like A Sister', cursive;
+    margin: 5pt;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.history-button:hover {
+    border: 3px solid white;
+    font-size: 22pt;
+}
+
+img {
+    margin: 5pt;
+}
