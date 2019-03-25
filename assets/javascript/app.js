@@ -8,9 +8,10 @@ window.onload = () => {
         .then(r => r.json())
         .then(r => {
             for (let i = 0; i < r.data.length; i++) {
+            stillImage = r.data[i].images.fixed_height_still.url
             movingImage = r.data[i].images.fixed_height.url
             let giphy = document.createElement('span')
-            giphy.innerHTML = `<img class="giphy" src="${movingImage}">`
+            giphy.innerHTML = `<img class="giphy" src="${movingImage}" data-still="${stillImage}" data-moving="${movingImage}">`
             document.querySelector('#giphy-container').append(giphy)
             }
         })
